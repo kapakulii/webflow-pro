@@ -1,6 +1,6 @@
-let titleProject = prompt('Название проекта ?');
-let screensValue = prompt('шаблонные, с уникальным дизайном, с анимациями');
-let responsive = confirm('Нужен ли адаптивный сайт?')
+// let titleProject = prompt('Название проекта ?');
+// let screensValue = prompt('шаблонные, с уникальным дизайном, с анимациями');
+// let responsive = confirm('Нужен ли адаптивный сайт?')
 
 let screenPrice = 500;
 
@@ -27,4 +27,4 @@ let servicePercentPrice = fullPrice * servicePercent;
 
 console.log('Стоимость', fullPrice);
 console.log('Коэффициент скидки', servicePercent);
-console.log('Итоговая стоимость с учётом скидки', servicePercentPrice);
+console.log('Итоговая стоимость с учётом скидки', Math.round(servicePercentPrice));
