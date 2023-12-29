@@ -1,6 +1,6 @@
-// let titleProject = prompt('Название проекта ?');
-// let screensValue = prompt('шаблонные, с уникальным дизайном, с анимациями');
-// let responsive = confirm('Нужен ли адаптивный сайт?')
+let titleProject = prompt('Название проекта ?');
+let screensValue = prompt('шаблонные, с уникальным дизайном, с анимациями');
+let responsive = confirm('Нужен ли адаптивный сайт?')
 
 let screenPrice = 500;
 
