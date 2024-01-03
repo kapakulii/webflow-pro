@@ -44,21 +44,3 @@ if (fullPrice > 50000) {
 } else {
     alert('Что-то пошло не так');
 }
-
-
-
-// let servicePercent;
-
-// if (fullPrice > 50000) {
-//     servicePercent = 0.9;
-// } else if (20000 < fullPrice && fullPrice < 50000) {
-//     servicePercent = 0.95;
-// } else if (0 < fullPrice && fullPrice < 20000) {
-//     servicePercent = 1;
-// } else {
-//     alert('Что-то пошло не так');
-// }
-// console.log('Коэффициент скидки', servicePercent);
-
-// let servicePercentPrice = fullPrice * servicePercent;
-// console.log('Итоговая стоимость с учётом скидки', Math.round(servicePercentPrice));
