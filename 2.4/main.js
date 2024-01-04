@@ -11,7 +11,7 @@ let screenPrice = 10000;
 console.log('Стоимость экрана:', screenPrice);
 
 let percentage = 15;
-console.log('Стоимость экрана:', percentage);
+console.log('Процент отката подрядчику', percentage);
 
 // добавляем переменные с дополнительными данными
 let service1 = prompt('Какой сервис нужен?');
@@ -30,7 +30,7 @@ let fullPrice = screenPrice + servicePrice1 + servicePrice2; // формула �
 console.log('Полная стоимость проекта', fullPrice);
 
 let servicePercentPrice = fullPrice / percentage * 100; // итоговая сумма за вычетом процента
-console.log('Стоимость сайта за вычетом процента подрядчику', servicePercentPrice);
+console.log('Стоимость сайта за вычетом процента подрядчику', Math.round(servicePercentPrice));
 
 // Расчитываем величину скидки
 if (fullPrice > 50000) {
