@@ -4,7 +4,7 @@ function guessNumberGame() {
     while (playAgain) {
         const secretNumber = Math.floor(Math.random() * 100) + 1;
         let guessed = false;
-        let attempts = 6; // Количество попыток
+        let attempts = 4; // Количество попыток
 
         // Цикл будет выполняться, пока число не будет угадано и попытки не закончатся
         while (!guessed && attempts > 0) {
