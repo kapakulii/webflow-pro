@@ -9,9 +9,9 @@ function guessNumberGame() {
         // Цикл будет выполняться, пока число не будет угадано и попытки не закончатся
         while (!guessed && attempts > 0) {
             const userInput = prompt(`Угадай число от 1 до 100. Осталось попыток: ${attempts}`);
-
+            console.log(userInput);
             // Проверяем, была ли нажата кнопка "Отмена"
-            if (userInput === null) {
+            if (userInput === null || userInput === "") {
                 alert("Game over.");
                 break;
             }
@@ -39,7 +39,7 @@ function guessNumberGame() {
 
         // Если число не было угадано, выводим сообщение о проигрыше
         if (!guessed) {
-            alert(`Игра окончена. Вы проиграли, попыток больше не осталось. Было загадано число: ${secretNumber}`);
+            alert(`Игра окончена. Было загадано число: ${secretNumber}`);
         }
 
         // Если число угадано, предлагаем начать игру снова
